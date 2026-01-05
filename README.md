@@ -7,7 +7,7 @@
 
 0. **Exlporation**: "Getting it all locally" *(it is a small data volume after all)*
 	a. Set up a *working environment* with `pandas` and `kagglehub` or `mlcroissant` as local `.venv` folder or `conda env` -> **document how?**
-	b. Download **unverified** [Comprehensive database of Minerals](https://www.kaggle.com/datasets/vinven7/comprehensive-database-of-minerals) from Kaggle as a *starting point* via `kagglehub` or `mlcroissant`
+	b. Download **unverified** [Comprehensive database of Minerals](article/2019.IMA_Nomenclature.FreeToUse.pdf.pdf) from Kaggle as a *starting point* via `kagglehub` or `mlcroissant`
 	b. Make a *working copy* of the downloaded *unverified table* to edit and keep the original as baseline for future -> *think about file naming and paths*
 1. **Definition**: "Forging a foundation"
 	a. Analyse *original* columns format and contextual essence
@@ -66,5 +66,5 @@
 > В видео "Measuring Refractive Indices of a Crystal" гайд, снятый в университете IDAHO, как работник измеряет reflective index с помощью рефрактометра (https://youtu.be/zxZBWpS-VNI?si=_6EYUDigCUMPjdOY). Величина показателя преломления является специфическим признаком каждого минерала, что позволяет его правильно идентифицировать. Чем этот показатель выше, тем больше возможности получения максимального блеска при правильной огранке камня. Высокие показатели преломления у алмаза и циркона, поэтому эти камни характеризуются ярким блеском.
 9. `dispersion : float` == разложение света на спектральные цвета при прохождении через оптически плотное вещество
 >Для измерения дисперсии кристалла рассчитывают его показатель преломления (преломление измеряют с помощью рефрактометра), используя красный свет (686,7 нм), а затем фиолетовый свет (430,8 нм). Абсолютная разница между красным и фиолетовым показателями преломления кристалла равна его дисперсии. (Значения дисперсии не имеют единиц измерения)
-10. `formula : str` == формула, которая описывает минеральный химический состав (сама систематика формул IMA описывается в статье "[[A compendium of IMA-Approved Mineral Nomenclature]]" https://mineralogy-ima-wordpress.website/wp-content/uploads/2023/04/IMA-Nomenclature-e-Booklet-2019-1.pdf)
+10. `formula : str` == формула, которая описывает минеральный химический состав (сама систематика формул IMA описывается в статье "[A compendium of IMA-Approved Mineral Nomenclature](article/2019.IMA_Nomenclature.FreeToUse.pdf.pdf)"
 11. `elements : list[str]` == список химических элементов входят в состав минерала
